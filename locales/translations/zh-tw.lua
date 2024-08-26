@@ -1,0 +1,42 @@
+Language['zh-tw'] = {
+    nui = {
+        craft = '製作',
+        language = '所需物品：',
+        craftTime = '製作時間：',
+        s = '秒',
+        uses = '使用次數：',
+        claim = '確認',
+        cancel = '取消',
+        yes = '是',
+        no = '否',
+        claimCraft = '領取製作物',
+        cancelCraft = '取消製作',
+        areYouSure = '你確定要這樣做嗎？',
+        noItemSelected = '未選擇任何物品',
+        required = '所需物品：',
+        unlockBP = '解鎖藍圖',
+    },
+    useBench = '按 [E] 使用工作台。',
+    blueprints = {
+        notAtABench = '你不在工作台旁。',
+        alreadyUsed = '藍圖已使用。',
+        added = '藍圖已添加。',
+        cantUse = '你不能在這個工作台上使用此藍圖。',
+    },
+    placingBench = {
+        left = '按 Q 向左旋轉',
+        right = '按 E 向右旋轉',
+        place = '按 F 放置',
+        cancel = '按 X 取消',
+        inAnotherZone = '你離另一個工作台太近了。',
+        limitReached = '你已達到可以放置工作台的上限。',
+    },
+    notEnough = {
+        title = '物品不足',
+        message = '你沒有足夠的物品來製作此物品。',
+    },
+    faves = {
+        add = '已添加到收藏',
+        remove = '已從收藏中移除',
+    },
+}
