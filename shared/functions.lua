@@ -17,6 +17,14 @@ function debugPrint(...)
   print(finalMsg)
 end
 
+function getVector3(value)
+    if type(value) == "vector3" then
+        return value
+    else
+        return json.decode(value)
+    end
+end
+
 function getItemFromId(id, type)
   local item = CraftableItems[type][id]
   if not item then
