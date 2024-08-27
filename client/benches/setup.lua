@@ -15,7 +15,7 @@ function setupBenches(source)
     local uniqueId = getPlayerUniqueId(source)
     for i = 1, #Benches do 
         local bench = Benches[i]
-        local location, rotation = json.decode(bench.location), json.decode(bench.rotation)
+        local location, rotation = getVector3(bench.location), getVector3(bench.rotation)
         local tableForTarget = {
             options = {
                 {
